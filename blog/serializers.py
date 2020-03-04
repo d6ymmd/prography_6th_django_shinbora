@@ -7,3 +7,9 @@ class ArticleSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Article
         fields = ['id', 'author', 'title', 'description', 'created_at']
+
+
+# class ArticleDetailSerializer(serializers.HyperlinkedModelSerializer):
+#     class Meta:
+#         model = Article
+#         fields = ['id', 'author', 'title', 'description', 'created_at']
